@@ -16,7 +16,7 @@ Booktree is designed and built as a scalable application that contains a fair am
 - **iOS development:** Annie(features in js)
 - **Android development:** Leo Shange(features in Java), Chang Liu(UI in xml)
 - **Web development:** James He(features in js), Steve(UI in CSS)
-#### The stacks for web development
+#### The stacks for Web development
 - **Authentication**: Firebase Auth
 - **Front-end:** React.js
 - **Back-end:** Express.js + Firestore
