@@ -1,0 +1,168 @@
+.user-item-container{
+  display: grid;
+  grid-template-rows: 9.98312vw 10% 73.4%;
+  height: 100vh;
+}
+.icon-item{
+  cursor: pointer;
+}
+.rightPart-container{
+  display: grid;
+  grid-template-rows: 50% 50%;
+
+}
+.log-out-prompt-container{
+  margin-right: 2.5vw;
+}
+.log-out-prompt{
+  margin-right: 0.3vw;
+  font-family: Montserrat;
+  font-size: 0.84388vw;
+}
+.log-out-name{
+  font-family: Montserrat;
+  font-size: 0.84388vw;
+  font-weight: 600;
+}
+.log-out-icon{
+  cursor: pointer;
+}
+.top-item{
+  padding-top: 2vw;
+  padding-right: 9.5vw;
+  justify-self:right;
+}
+.top-item a{
+  color: #FF0000;
+  font-weight: 600;
+  font-family: Montserrat;
+  font-size: 0.84388vw;
+  opacity: 0.5;
+  transition: all 0.4s ease 0s;
+}
+.top-item a:hover{
+  opacity: 1;
+}
+.me-nav-container{
+  display: grid;
+  grid-template-rows: 8% 92%;
+}
+.me-nav-title{
+  text-align: center;
+  margin-left: 6.75105vw;
+  margin-right: 6.75105vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.me-nav-title{
+  cursor: pointer;
+  font-size: 1.16582vw;
+  color: #333;
+  font-weight: 600;
+  font-family: Montserrat;
+  opacity: 0.6;
+}
+.me-nav-title .typing-field-active{
+  border-bottom: 3px solid #333;
+}
+.typing-field-inactive{
+  transition: all 0.4s ease 0s;
+}
+.typing-field-inactive:hover{
+  background-color: hsla(0, 100%, 0%, 0.03);
+}
+.me-list-content-block{
+  margin-left: 6.75105vw;
+  margin-right: 6.75105vw;
+  margin-top: 0px;
+  padding-left: 0px;
+  border-top: 1px solid rgba(0, 0, 0, .1);
+}
+.me-list-content-container{
+  padding-left: 2.70042vw;
+  padding-right: 2.70042vw;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+  align-self: center;
+  transition: all 0.4s ease 0s;
+}
+.me-list-content-container:hover{
+  background-color: hsla(0, 100%, 0%, 0.03);
+}
+.me-list-item-block{
+  height: 13.50210vw;
+  display: grid;
+  grid-template-columns: 40% 20% 40%;
+}
+.me-list-item-name{
+  margin-left: 8vw;
+  align-self: center;
+  font-size: 1.67215vw;
+  color: #333;
+  font-weight: 600;
+  font-family: Montserrat;
+  opacity: 0.8;
+}
+.me-list-item-price{
+  opacity: 0.6;
+  align-self: center;
+  font-size: 1.80970vw;
+  color: #333;
+  font-weight: 400;
+  font-family: Montserrat;
+}
+.delete-block{
+  padding-left: 10vw;
+  color: #FF0000;
+  font-weight: 600;
+  font-family: Montserrat;
+  font-size: 1.01265vw;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.delete-block div{
+  cursor: pointer;
+  width: 2.8692vw;
+  height: 2.8692vw;
+  border-radius: 50%;
+  background-color: #FF0000;
+  opacity: 0.03;
+  position: relative;
+  left: -1vw;
+  transition: all 0.4s ease 0s;
+}
+.delete-block div:hover{
+  opacity: 0.08;
+}
+.me-pending-list-content-container{
+  padding-left: 2.70042vw;
+  padding-right: 2.70042vw;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+  align-self: center;
+  transition: all 0.4s ease 0s;
+}
+.me-pending-list-content-container:hover{
+  background-color: hsla(0, 100%, 0%, 0.03);
+}
+.me-pending-list-item-block{
+  height: 13.50210vw;
+  display: grid;
+  grid-template-columns: 45% 15% 20% 20%;
+}
+.me-pending-list-item-name{
+  margin-left: 3vw;
+  align-self: center;
+  font-size: 1.67215vw;
+  color: #333;
+  font-weight: 600;
+  font-family: Montserrat;
+  opacity: 0.8;
+}
+.me-pending-list-item{
+  align-self: center;
+  font-size: 1.60970vw;
+  color: #333;
+  font-weight: 400;
+  font-family: Montserrat;
+  opacity: 0.6;
+}

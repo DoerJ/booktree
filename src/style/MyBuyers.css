@@ -1,0 +1,119 @@
+.MyBuyers-container{
+  display: grid;
+  grid-template-rows: 9.98312vw 10% 10% 56.8%;
+  height: 100vh;
+}
+.buyer-list-title-container{
+  margin-right: 6.751054vw;
+  margin-left: 6.751054vw;
+  display: grid;
+  grid-template-columns: 34% 66%;
+}
+.buyer-list-title{
+	align-self: end;
+	display: grid;
+	grid-template-columns: 20% 35% 40%;
+}
+.section-title{
+	justify-self: center;
+	color: #333;
+	font-weight: 600;
+	font-family: Montserrat;
+	font-size: 0.84388vw;
+	border-left: 1px solid #333;
+	padding-left: 1.26582vw;
+}
+.icon-item{
+  cursor: pointer;
+}
+.buyer-list-content-block{
+  margin-left: 6.75105vw;
+  margin-right: 6.75105vw;
+  padding-left: 0px;
+  border-top: 1px solid rgba(0, 0, 0, .1);
+}
+.buyer-info-container{
+  height: 13.50210vw;
+  display: grid;
+  grid-auto-rows: 1fr 1fr;
+}
+.buyer-list-container{
+  padding-left: 2.70042vw;
+  padding-right: 2.70042vw;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+  transition: all 0.4s ease 0s;
+}
+.buyer-list-container:hover{
+  background-color: hsla(0, 100%, 0%, 0.03);
+}
+.first-line-container{
+  align-self: center;
+}
+.list-item-name{
+  font-size: 1.77215vw;
+  opacity: 0.8;
+  color: #333;
+  font-weight: 600;
+  font-family: Montserrat;
+}
+.bottom-line-container{
+  display: grid;
+  grid-template-columns: 30% 20% 20% 35%;
+}
+.activities-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.finish-block{
+  color: #00C45F;
+  font-weight: 600;
+  font-family: Montserrat;
+  font-size: 1.01265vw;
+  align-items: center;
+  display: flex;
+}
+.finish-block div{
+  cursor: pointer;
+  width: 2.8692vw;
+  height: 2.8692vw;
+  border-radius: 50%;
+  background-color: #00C45F;
+  opacity: 0.06;
+  position: relative;
+  left: -1vw;
+  transition: all 0.4s ease 0s;
+}
+.finish-block div:hover{
+  opacity: 0.15;
+}
+.cancel-block{
+  color: #FF0000;
+  font-weight: 600;
+  font-family: Montserrat;
+  font-size: 1.01265vw;
+  align-items: center;
+  display: flex;
+}
+.cancel-block div{
+  cursor: pointer;
+  width: 2.8692vw;
+  height: 2.8692vw;
+  border-radius: 50%;
+  background-color: #FF0000;
+  opacity: 0.03;
+  position: relative;
+  left: -1vw;
+  transition: all 0.4s ease 0s;
+}
+.cancel-block div:hover{
+  opacity: 0.08;
+}
+.buyer-list-item-content{
+  opacity: 0.6;
+  color: #333;
+  align-self: center;
+  justify-self: center;
+  font-weight: 400;
+  font-family: Montserrat;
+  font-size: 1.67215vw;
+}

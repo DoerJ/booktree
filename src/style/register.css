@@ -1,0 +1,107 @@
+.register-item-container{
+	width: 100vw;
+	position: fixed;
+	top:0;
+	bottom:0;
+	height: 100%;
+	display: grid;
+	grid-template-columns: 50vw 50vw;
+	background-image: url(../images/register.jpeg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.input-item-container{
+	padding-left: 4.27949vw;
+	display: grid;
+	grid-template-rows: 6.60% 85.51%;
+}
+.inputContainer{
+	padding-top: 20.15%;
+	padding-left: 7.8333vw;
+}
+.register-typing-container{
+	height: 11.35%;
+	/*height: 17.3%;*/
+	margin-bottom: 7.49%;
+}
+.register-typing-field-input{
+	width: 28.71143vw;
+	opacity: 0.3;
+  border-bottom: 1px solid #9e9e9e;
+  background-color: #fff;
+  padding: 0.67510vw  0px;
+  line-height: 1.68776vw;
+}
+::placeholder {
+	color: #000000;
+  font-weight: 700;
+  font-family: Montserrat;
+  font-size: 0.9vw;
+  opacity: 0.8
+}
+.register-submit-field-container{
+	width: 28.71143vw;
+	height: 6.49%;
+	justify-self:center;
+	align-self: center;
+}
+.submit-button{
+	float: right;
+	width: 10.48722vw;
+	height: 2.9vw;
+	border-radius: 6.24472vw;
+	background-color: #8B4B62;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	font-size:0.92810vw;
+	transition: all 0.4s ease-in-out;
+}
+.submit-button:hover{
+	cursor: pointer;
+	text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+}
+.register-title-container{
+	padding-top:57.64%;
+	padding-left:5.84414vw;
+}
+.register-sub-title{
+	/*justify-self:center;*/
+	/*padding-left:82px;*/
+	margin-top:2.08%;
+}
+.register-title{
+	font-size: 5.06238vw;
+	color: #333;
+	font-weight: 800;
+	font-family: Montserrat;
+	line-height: 5.90717vw;;
+}
+.register-sub-title span{
+	font-size: 0.92810vw;
+	color: #333;
+	font-weight: 300;
+	font-family: Montserrat;
+	display: block;
+}
+/* when the label is activated, it jumps up (using translateY) */
+        /* you could add animation here as well */
+.register-typing-container .field-active {
+	display: block;
+  position:relative;
+  left: 0px;
+  top: 0px;
+  transition: all 150ms ease-in;
+  color: #000000;
+  font-weight: 700;
+  font-family: Montserrat;
+  font-size: 0.85vw;
+  opacity: 0.8;
+ }
+ .register-typing-container div{
+	 display: none;
+ }

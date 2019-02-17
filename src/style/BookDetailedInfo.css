@@ -1,0 +1,129 @@
+.book-detail-container{
+  display: grid;
+  grid-template-rows: 16.6% 83.4%;
+  height: 100vh;
+}
+.content-display-container{
+  padding-left: 4.2194vw;
+  padding-right:11.56118vw;
+}
+h1{
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: 10px;
+  color: #333;
+  font-weight: 300;
+  font-family: Montserrat;
+  margin-left: 0px;
+}
+.book-list-container{
+  display: grid;
+  grid-template-columns: 3vw 44.38819vw 37.29959vw;
+  height: 100%;
+}
+.image-download-container{
+  width:35.52742vw;
+  height:35.52742vw;
+  background-color: #E5EFEE;
+}
+.image-download-container img{
+  width: 28.77637vw;
+  height: 28.77637vw;
+  position: relative;
+  left: 9.11392vw;
+  top: 3.37552vw;
+}
+.book-info-container{
+  display: grid;
+  grid-auto-rows: 3.21940vw 4.81940vw 8.43882vw 4.21940vw 4.21940vw 4.21940vw 4.21940vw 4.21940vw;
+}
+.book-price{
+  justify-self:right;
+  align-self: flex-start;
+  font-size: 1.26582vw;
+  color: #333;
+  font-weight: 300;
+  font-family: Montserrat;
+}
+.book-price span{
+  margin-left: 0.5vw;
+  font-size: 2.10970vw;
+  color: #333;
+  font-weight: 600;
+  font-family: Montserrat;
+}
+.book-title{
+  font-size: 2.36287vw;
+  color: #333;
+  font-weight: 600;
+  font-family: Montserrat;
+}
+.book-description{
+  display: flex;
+  align-items: center;
+  font-size: 1.012658vw;
+  color: #333;
+  font-weight: 300;
+  font-family: Montserrat;
+  margin-bottom: 4.21940vw;
+  margin-top: 2.95358vw;
+}
+.descriptionIcon{
+  margin-right: 2.95358vw;
+  width: 1.91080vw;
+  height: 1.45907vw;
+  background-image: url('../images/icons/description.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.book-list-block{
+  align-self: center;
+}
+.book-list-block span{
+  border-left: 0.5px solid #333;
+  padding-left: 4.81012vw;
+  font-size: 1.18143vw;
+  color: #333;
+  font-weight: 400;
+  font-family: Montserrat;
+  line-height: 1.26582vw;
+  display:flex;
+}
+.submit-block{
+  justify-self:right;
+  align-self: flex-start;
+  height: 2.95358vw;
+  width: 10.88608vw;
+  background-color:#FFCC5C;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 18px;
+  font-size: 0.98143vw;
+  color: #fff;
+  font-weight: 600;
+  font-family: Montserrat;
+  line-height: 1.26582vw;
+  transition: all 0.4s ease-in-out;
+}
+.submit-block:hover{
+  cursor: pointer;
+	text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+}
+.submit-block a {
+
+}
+.book-chain-Icon{
+  margin-right: 2.95358vw;
+  margin-left: 2.95358vw;
+  width:2.869198vw;
+  height:0.590717vw;
+  background-image: url(../images/icons/chain.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  align-self: center;
+}

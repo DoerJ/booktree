@@ -1,0 +1,31 @@
+.nav-bar-container{
+	padding-left: 5vw;
+	padding-right: 5vw;
+	padding-bottom: 3px;
+	display: flex;
+}
+.nav-item-container{
+	padding-left:7vw;
+	padding-bottom: 0.8vw;
+	text-align: center;
+	font-size: 1.01266vw;;
+}
+.nav-item{
+	cursor: pointer;
+	color: #333;
+	font-weight: 700;
+	font-family: Montserrat;
+	opacity: 0.4;
+	transition: all 0.4s ease 0s;
+}
+.nav-item:hover{
+	opacity: 0.8;
+	color: #000;
+}
+.active-nav-item{
+	cursor: pointer;
+	color: #000;
+	font-weight: 700;
+	font-family: Montserrat;
+	opacity: 1;
+}
