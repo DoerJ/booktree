@@ -8,7 +8,7 @@ Booktree is an online second-hadned textbooks trade platform for university stud
 3. run npm install
 4. Open one more terminal windows under the current directory, run **node server.js** and **npm start** respectively
 #### The project team
-Booktree is designed and built as a scalable application that contains a fair amount of features, backup with Firestore database, and to be developed in iOS, Android, and Web. Therefore, the teamwork is needed to achieve all of these. The reponsiibilities of the team are as follow:
+Booktree is designed and built as a scalable application that contains a fair amount of features, backup with Firestore database, and developed in iOS, Android, and Web. Therefore, the teamwork is needed to achieve all of these. The reponsiibilities of the team are as follow:
 - **Requirement engineering:** James He, Leo Shang
 - **Workflow design(UML):** James He, Leo Shange
 - **Database design:** James He, Leo Shang
