@@ -21,7 +21,7 @@ Booktree is designed and built as a scalable application that contains a fair am
 - **Front-end:** React.js
 - **Back-end:** Express.js + Firestore
 - **Data interaction API:** Ajax
-- **UI**: Adobe Illustrator(design) + JSX + CSS
+- **UI**: Adobe Illustrator(images) + JSX + CSS
 #### Work flow(UML)
 The following UML diagram is the high-level presentation of Booktree Web App:
 ![booktree](https://user-images.githubusercontent.com/30460622/52996334-23e6fc80-33d2-11e9-8d21-ca7682dd9bc3.jpg)
