@@ -2,6 +2,20 @@
 An online second-handed textbooks trade platform for university students
 #### Description 
 Booktree is an online second-hadned textbooks trade platform for university students. The application aims to encourage the students to pass their used textbooks to the others, and find their needed textbooks through the others for the new semester. Booktree is designed and built in iOS, Android, and Web. 
+#### Functionalities
+- User authentication
+- Email verification for account signup
+- Textbook list sorted by date on homepage
+- Search textbook by bookname/school
+- Post book online
+- Image upload
+- Display the detailed info of the textbook
+- Confirm the transaction
+- Display the buyer list
+- Cancel/delete transaction on buyer page
+- Display the posted books and pending transactions on aboutMe page
+- Push notification
+- Badge icon on navigation bar
 #### How to run it?
 1. git clone https://github.com/DoerJ/Booktree.git
 2. cd Booktree
