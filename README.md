@@ -3,6 +3,7 @@ An online second-handed textbooks trade platform for university students. See pr
 #### Description 
 Booktree is an online second-handed textbooks trade platform for university students. The application aims to encourage the students to pass their used textbooks to the others, and find their needed textbooks through the others for the new semester. Booktree is designed and built in iOS, Android, and Web. 
 #### Functionalities
+<pre>
 - User authentication
 - Email verification for account signup
 - Textbook list sorted by date on homepage
@@ -16,26 +17,33 @@ Booktree is an online second-handed textbooks trade platform for university stud
 - Display the posted books and pending transactions on aboutMe page
 - Push notification
 - Badge icon on navigation bar
+</pre>
 #### How to run it?
+<pre>
 1. git clone https://github.com/DoerJ/Booktree.git
 2. cd Booktree
 3. run npm install
 4. Open one more terminal windows under the current directory, run **node server.js** and **npm start** in two terminal windows respectively
+</pre>
 #### The project team
 Booktree is designed and built as a scalable application that contains a fair amount of features, backup with Firestore database, and developed in iOS, Android, and Web. Therefore, the teamwork is needed to achieve all of these. The reponsiibilities of the team are as follow:
-- **Requirement engineering:** James He, Leo Shang
-- **Workflow design(UML):** James He, Leo Shange
-- **Database design:** James He, Leo Shang
-- **UI design for iOS, Android, and Web:** James He
-- **iOS development:** Annie(features in js)
-- **Android development:** Leo Shange(features in Java), Chang Liu(UI in xml)
-- **Web development:** James He(features in js), Steve(UI in CSS)
+<pre>
+- Requirement engineering: James He, Leo Shang
+- Workflow design(UML): James He, Leo Shange
+- Database design: James He, Leo Shang
+- UI design for iOS, Android, and Web: James He
+- iOS development: Annie(features in js)
+- Android development: Leo Shange(features in Java), Chang Liu(UI in xml)
+- Web development: James He(features in js), Steve(UI in CSS)
+</pre>
 #### The stacks for Web development
-- **Authentication**: Firebase Auth
-- **Front-end:** React.js
-- **Back-end:** Express.js + Firestore
-- **Data interaction API:** Ajax
-- **UI**: Adobe Illustrator(images) + JSX + CSS
+<pre>
+- Authentication: Firebase Auth
+- Front-end: React.js
+- Back-end: Express.js + Firestore
+- Data interaction API: Ajax
+- UI: Adobe Illustrator(images) + JSX + CSS
+</pre>
 #### Project category
 <pre>
 |--booktree                   // root
