@@ -1,6 +1,8 @@
 # Booktree
+<pre>
 An online second-handed textbooks trade platform for university students
 See project in my bitbucket repo at: https://bitbucket.org/jamesyuhao/booktree/src/working_dev/
+</pre>
 #### Description 
 Booktree is an online second-handed textbooks trade platform for university students. The application aims to encourage the students to pass their used textbooks to the others, and find their needed textbooks through the others for the new semester. Booktree is designed and built in iOS, Android, and Web. 
 #### Functionalities
