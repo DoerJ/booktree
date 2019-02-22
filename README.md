@@ -23,7 +23,7 @@ Booktree is an online second-handed textbooks trade platform for university stud
 1. git clone https://github.com/DoerJ/Booktree.git
 2. cd Booktree
 3. run npm install
-4. Open one more terminal windows under the current directory, run **node server.js** and **npm start** in two terminal windows respectively
+4. Open one more terminal windows under the current directory, run "node server.js" and "npm start" in two terminal windows respectively
 </pre>
 #### The project team
 Booktree is designed and built as a scalable application that contains a fair amount of features, backup with Firestore database, and developed in iOS, Android, and Web. Therefore, the teamwork is needed to achieve all of these. The reponsiibilities of the team are as follow:
