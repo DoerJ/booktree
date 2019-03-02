@@ -28,6 +28,7 @@ Booktree is an online second-handed textbooks trade platform for university stud
 #### The project team
 Booktree is designed and built as a scalable application that contains a fair amount of features, backup with Firestore database, and developed in iOS, Android, and Web. Therefore, the teamwork is needed to achieve all of these. The reponsiibilities of the team are as follow:
 <pre>
+- Project manager: James He, Leo Shang
 - Requirement engineering: James He, Leo Shang
 - Workflow design(UML): James He, Leo Shange
 - Database design: James He, Leo Shang
