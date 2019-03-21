@@ -2,7 +2,7 @@
 An online used textbooks trading platform for university students. See project in my bitbucket repo at: https://bitbucket.org/jamesyuhao/booktree/src/working_dev/
 
 #### Description 
-Booktree is an online used textbooks trading platform for university students. The application improves the efficiency selling process by highly HCI design (Human-Computer Interaction design). Since the the application is designed to be user-friendly, the time-consuming process students need to experience when looking for textbooks for the upcoming semester has been eliminated. Booktree is available on iOS, Android, and Web platforms for free.
+Booktree is an online used textbooks trading platform for university students. The application improves the efficiency of selling process by high quality HCI design (Human-Computer Interaction design). Since the application interfaces are user-friendly, the time-consuming book-purchasing process students need to experience has been eliminated. Moreover, Booktree is available on iOS, Android, and Web platforms for free.
 
 #### Functionalities
 <pre>
