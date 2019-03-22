@@ -1,7 +1,9 @@
 # Booktree
-An online second-handed textbooks trade platform for university students. See project in my bitbucket repo at: https://bitbucket.org/jamesyuhao/booktree/src/working_dev/
+An online used textbooks trading platform for university students. See project in my bitbucket repo at: https://bitbucket.org/jamesyuhao/booktree/src/working_dev/
+
 #### Description 
-Booktree is an online second-handed textbooks trade platform for university students. The application aims to encourage the students to pass their used textbooks to the others, and find their needed textbooks through the others for the new semester. Booktree is designed and built in iOS, Android, and Web. 
+Booktree is an online used textbooks trading platform for university students. The application improves the efficiency of selling process by high quality HCI design (Human-Computer Interaction design). Since the application interfaces are user-friendly, the time-consuming book-purchasing process students need to experience has been eliminated. Moreover, Booktree is available on iOS, Android, and Web platforms for free.
+
 #### Functionalities
 <pre>
 - User authentication
@@ -18,25 +20,15 @@ Booktree is an online second-handed textbooks trade platform for university stud
 - Push notification
 - Badge icon on navigation bar
 </pre>
-#### How to run it?
-<pre>
-1. git clone https://github.com/DoerJ/Booktree.git
-2. cd Booktree
-3. run npm install
-4. Open one more terminal windows under the current directory, run "node server.js" and "npm start" in two terminal windows respectively
-</pre>
-#### The project team
-Booktree is designed and built as a scalable application that contains a fair amount of features, backup with Firestore database, and developed in iOS, Android, and Web. Therefore, the teamwork is needed to achieve all of these. The reponsiibilities of the team are as follow:
-<pre>
-- Project manager: James He, Leo Shang
-- Requirement engineering: James He, Leo Shang
-- Workflow design(UML): James He, Leo Shange
-- Database design: James He, Leo Shang
-- UI designs: James He
-- iOS development: Annie(features in js)
-- Android development: Leo Shange(features in Java), Chang Liu(UI in xml)
-- Web development: James He(features in js), Steve(UI in CSS)
-</pre>
+
+#### Work flow(UML)
+The following UML diagram is the high-level presentation of Booktree Web App:
+
+![booktree](https://user-images.githubusercontent.com/30460622/52996334-23e6fc80-33d2-11e9-8d21-ca7682dd9bc3.jpg)
+
+#### UI designs
+See the UI art work on my Behance: https://www.behance.net/jamesyuhao1455
+
 #### The stacks for Web development
 <pre>
 - Authentication: Firebase Auth
@@ -45,6 +37,7 @@ Booktree is designed and built as a scalable application that contains a fair am
 - Data interaction API: Ajax
 - UI: Adobe Illustrator(images) + JSX + CSS
 </pre>
+
 #### Project category
 <pre>
 |--booktree                   // root
@@ -110,9 +103,24 @@ Booktree is designed and built as a scalable application that contains a fair am
       |--register.css                   // css for signup page
       |--style.css                    // shared css
 </pre>
-#### Work flow(UML)
-The following UML diagram is the high-level presentation of Booktree Web App:
 
-![booktree](https://user-images.githubusercontent.com/30460622/52996334-23e6fc80-33d2-11e9-8d21-ca7682dd9bc3.jpg)
-#### UI designs
-See the UI art work on my Behance: https://www.behance.net/jamesyuhao1455
+#### How to run it?
+<pre>
+1. git clone https://github.com/DoerJ/Booktree.git
+2. cd Booktree
+3. run npm install
+4. Open one more terminal windows under the current directory, run "node server.js" and "npm start" in two terminal windows respectively
+</pre>
+
+#### The project team
+Booktree is designed and built as a scalable application that contains a fair amount of features, backup with Firestore database, and developed in iOS, Android, and Web. Therefore, the teamwork is needed to achieve all of these. The reponsiibilities of the team are as follow:
+<pre>
+- Project manager: James He, Leo Shang
+- Requirement engineering: James He, Leo Shang
+- Workflow design(UML): James He, Leo Shange
+- Database design: James He, Leo Shang
+- UI designs: James He
+- iOS development: Annie(features in js)
+- Android development: Leo Shange(features in Java), Chang Liu(UI in xml)
+- Web development: James He(features in js), Steve(UI in CSS)
+</pre>
