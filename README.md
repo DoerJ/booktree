@@ -2,7 +2,7 @@
 An online used textbooks trading platform for university students. See project in my bitbucket repo at: https://bitbucket.org/jamesyuhao/booktree/src/working_dev/
 
 #### Description 
-Booktree is an online used textbooks trading platform for university students. The application improves the efficiency of selling process by high quality HCI design (Human-Computer Interaction design). Since the application interfaces are user-friendly, the time-consuming book-purchasing process students need to experience has been eliminated. Moreover, Booktree is available on iOS, Android, and Web platforms for free.
+Booktree is an online second-handed textbooks trade platform for university students. The application encourages the students to pass their used textbooks to the others, and find their needed textbooks through the others for the new semester. Booktree is designed and built on iOS, Android, and Web.
 
 #### Functionalities
 <pre>
@@ -21,13 +21,13 @@ Booktree is an online used textbooks trading platform for university students. T
 - Badge icon on navigation bar
 </pre>
 
-#### Work flow(UML)
-The following UML diagram is the high-level presentation of Booktree Web App:
-
-![booktree](https://user-images.githubusercontent.com/30460622/52996334-23e6fc80-33d2-11e9-8d21-ca7682dd9bc3.jpg)
-
-#### UI designs
-See the UI art work on my Behance: https://www.behance.net/jamesyuhao1455
+#### How to run it?
+<pre>
+1. git clone https://github.com/DoerJ/Booktree.git
+2. cd Booktree
+3. run npm install
+4. Open one more terminal windows under the current directory, run "node server.js" and "npm start" in two terminal windows respectively
+</pre>
 
 #### The stacks for Web development
 <pre>
@@ -104,13 +104,13 @@ See the UI art work on my Behance: https://www.behance.net/jamesyuhao1455
       |--style.css                    // shared css
 </pre>
 
-#### How to run it?
-<pre>
-1. git clone https://github.com/DoerJ/Booktree.git
-2. cd Booktree
-3. run npm install
-4. Open one more terminal windows under the current directory, run "node server.js" and "npm start" in two terminal windows respectively
-</pre>
+#### Work flow(UML)
+The following UML diagram is the high-level presentation of Booktree Web App:
+
+![booktree](https://user-images.githubusercontent.com/30460622/52996334-23e6fc80-33d2-11e9-8d21-ca7682dd9bc3.jpg)
+
+#### UI designs
+See the UI art work on my Behance: https://www.behance.net/jamesyuhao1455
 
 #### The project team
 Booktree is designed and built as a scalable application that contains a fair amount of features, backup with Firestore database, and developed in iOS, Android, and Web. Therefore, the teamwork is needed to achieve all of these. The reponsiibilities of the team are as follow:
