@@ -5,7 +5,7 @@
   "dependencies": {
     "@firebase/storage": "^0.2.4",
     "@google-cloud/storage": "^2.3.1",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "cookie-parser": "^1.4.3",
     "express": "^4.16.3",
     "express-fileupload": "^1.0.0",
